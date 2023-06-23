@@ -24,5 +24,8 @@ Ce fichier README fournit des instructions simples pour exécuter notre projet I
   - Lancer le script de la manière suivante : `py kmeans_script.py [latitude] [longitude] [centroides.csv]` (latitude et longitude doivent être des float. centroides.csv est un fichier csv regroupant les latitudes et longitudes de différents centroïdes)
   - Le script va renvoyer en sortie un objet JSON qui contient la latitudes et la longitudes de l'accident initial et la latitude et la longitude du cluster prédit auquel il appartient
 ---
+   - Lancer le script de la manière suivante : `py script_classification_haut_niveau.py [chemin_fichier_csv_repertoriant_un_accident] [methode_utilisee]` (la méthode utilisée est, au choix, SVM, RF, ou MLP.)
+   - Le script va renvoyer en sortie un objet JSON contenant la gravité de l'accident prédite ainsi que les informations de l'accident.
+   - ATTENTION ! Assurez-vous d'avoir dans votre répertoire courant les différents modèles entraînés.
 
 C'est tout ! Vous devriez maintenant pouvoir exécuter notre projet IA en suivant les étapes mentionnées ci-dessus. Bonne utilisation !
